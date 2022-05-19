@@ -10,54 +10,63 @@ object setData {
         var que:ArrayList<QuestionData> = arrayListOf()
         var question1 = QuestionData(
             1,
-            "what is capital of India ?",
+            "With the introduction of online education services students can learn from anywhere using the........",
 
-            "Uttar Pradesh",
-            "Madhya Pradesh",
-            "Kanpur",
-            "New Delhi",
-            4
+            "Internet",
+            "Electricity",
+            "5G Technology",
+            "E-Mail",
+            1
         )
         var question2 = QuestionData(
             2,
-            "Who was the first Indian woman in Space ?",
+            "Android operating system is a ........ operating system",
 
-            "Kalpana Chawla",
-            "Sunita Williams",
-            "Koneru Humpy",
-            "None of the above",
-            1
+            "Computer",
+            "Mobile",
+            "Technology",
+            "Virtual Reality",
+            2
         )
         var question3 = QuestionData(
             3,
-            "Who wrote the Indian National Anthem ?",
+            ".......... is word processor software",
 
-            "Bakim Chandra Chatterji",
-            "Rabindranath Tagore",
-            "Swami Vivekanand",
-            "None of the above",
-            2
+            "MS Window",
+            "MS Excel",
+            "MS PowerPoint",
+            "MS Word",
+            4
         )
         var question4 = QuestionData(
             4,
-            "Who was the first President of India ?",
+            "Switch-case is similar to ......... statement.",
 
-            "Abdul Kalam",
-            "Lal Bahadur Shastri",
-            "Dr. Rajendra Prasad",
-            "Zakir Hussain",
-            3
+            "if else",
+            "if else-if",
+            "break",
+            "goto",
+            2
         )
 
         var question5 = QuestionData(
             5,
-            "Who built the Jama Masjid ?",
+            "A ........ is a 2 port device.",
 
-            "Jahangir",
-            "Akbar",
-            "Imam Bukhari",
-            "Shah Jahan",
+            "Hub",
+            "Switch",
+            "Router",
+            "Bridge",
             4
+        )
+        var question6 = QuestionData(
+            6,
+            "Wi-Fi stands for .........",
+            "Wireless Field",
+            "Wireless Fidelity",
+            "Wire Fire",
+            "Wire Fidelity",
+            2
         )
 
         que.add(question1)
@@ -65,6 +74,7 @@ object setData {
         que.add(question3)
         que.add(question4)
         que.add(question5)
+        que.add(question6)
         return que
     }
 }
