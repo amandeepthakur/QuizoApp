@@ -3,11 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/correct_option.xml" value="0.1185" />
         <entry key="app/src/main/res/drawable/gradient.xml" value="0.1185" />
-        <entry key="app/src/main/res/drawable/question_option.xml" value="0.7094025878906249" />
+        <entry key="app/src/main/res/drawable/question_option.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/roundbtn.xml" value="0.39871838378906255" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.6955535888671875" />
+        <entry key="app/src/main/res/drawable/selected_question_option.xml" value="0.1185" />
+        <entry key="app/src/main/res/drawable/wrong_option.xml" value="0.1185" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.24988708496093753" />
         <entry key="app/src/main/res/layout/activity_questions.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_result.xml" value="0.275" />
       </map>
     </option>
   </component>

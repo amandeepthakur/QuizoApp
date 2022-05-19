@@ -8,14 +8,14 @@
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".MainActivity"
-    android:padding="30dp">
+    android:padding="12dp">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="Quizo App"
-        android:textColor="@color/white"
+        android:textColor="#FFFFFF"
         android:textSize="55sp"
         android:textStyle="bold" />
 
@@ -51,6 +51,7 @@
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 >
                 <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/input"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Enter your name"/>
@@ -58,6 +59,7 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <Button
+                android:id="@+id/button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Next"
